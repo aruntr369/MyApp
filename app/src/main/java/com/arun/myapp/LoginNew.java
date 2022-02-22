@@ -41,6 +41,8 @@ public class LoginNew extends AppCompatActivity {
 
     }
 
+
+
     public void click_to_login(View view) {
         //typing values get stored in uname & paswd
         String uname =username.getText().toString();
