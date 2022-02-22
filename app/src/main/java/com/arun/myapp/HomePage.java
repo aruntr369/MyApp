@@ -19,10 +19,10 @@ public class HomePage extends AppCompatActivity {
         EditText url = (EditText) findViewById(R.id.urll);
         Button btn = (Button) findViewById(R.id.btn);
         btn.setOnClickListener(new View.OnClickListener() {
-            String data= url.getText().toString();
             @Override
             public void onClick(View view) {
-                Intent obj =new Intent(Intent.ACTION_VIEW,Uri.parse("https://www."+data+".com"));
+                String dataa= url.getText().toString();
+                Intent obj =new Intent(Intent.ACTION_VIEW,Uri.parse("https://www."+dataa+".com"));
 
                 startActivity(obj);
             }
