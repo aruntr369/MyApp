@@ -40,7 +40,7 @@
         app:srcCompat="@drawable/atomicon" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/starttx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="177dp"

@@ -121,5 +121,5 @@
         android:layout_marginLeft="150dp"
         android:background="@drawable/roundedbutton"
         android:backgroundTint="@color/teal_700"
-        android:text="info" />
+        android:text="new user?" />
 </RelativeLayout>

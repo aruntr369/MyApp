@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayoutEx"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:textSize="30dp"
+            android:layout_span="3"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:layout_span="2"/>
+
+        <EditText
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:hint="phno."
+            android:layout_span="1"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="user name"
+            android:layout_span="2"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="password"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_span="1"
+            android:text="Gender"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_span="1"
+            android:checked="false"
+            android:text="Male"
+            android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:checked="false"
+        android:text="Female"
+        android:textSize="20dp"
+        android:layout_span="1"/>
+    </TableRow>
+
+
+
+
+</TableLayout>

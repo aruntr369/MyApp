@@ -12,8 +12,8 @@ import android.widget.Toast;
 public class LoginNew extends AppCompatActivity {
 
     EditText username , password;
-    String un="admin";
-    String pw="123";
+    String un;
+    String pw;
     Button cancel;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,12 +30,21 @@ public class LoginNew extends AppCompatActivity {
             finish();
             }
         });
-        Button infobt =(Button) findViewById(R.id.infobtn);
-        infobt.setOnClickListener(new View.OnClickListener() {
+
+
+        Intent intentfromreg = getIntent();
+        un = intentfromreg.getStringExtra("username");
+        pw = intentfromreg.getStringExtra("password");
+
+        username.setText(un);
+        password.setText(pw);
+
+        Button toregi =(Button) findViewById(R.id.infobtn);
+        toregi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ii=new Intent(getApplicationContext(),BtnBack.class);
-                startActivity(ii);
+                Intent aa =new Intent(getApplicationContext(),Registration.class);
+                startActivity(aa);
             }
         });
 

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".TableLayoutEx"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
             android:name=".HomePage"
             android:exported="false" />
         <activity
@@ -20,7 +26,7 @@
             android:exported="false" />
         <activity
             android:name=".BtnBack"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Splash"
             android:exported="true">
@@ -30,7 +36,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

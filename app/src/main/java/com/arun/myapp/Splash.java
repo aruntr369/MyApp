@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Splash extends AppCompatActivity {
 
@@ -19,6 +20,10 @@ public class Splash extends AppCompatActivity {
         ImageView iv =(ImageView) findViewById(R.id.imageView);
         Animation faddeIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
         iv.startAnimation(faddeIn);
+
+        TextView tv =(TextView) findViewById(R.id.starttx);
+        Animation rotate =AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate);
+        tv.startAnimation(rotate);
 
 //        Thread obj = new Thread(){
 //            @Override
