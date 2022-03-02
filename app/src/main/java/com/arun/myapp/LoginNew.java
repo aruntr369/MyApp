@@ -36,6 +36,7 @@ public class LoginNew extends AppCompatActivity {
         un = intentfromreg.getStringExtra("username");
         pw = intentfromreg.getStringExtra("password");
 
+        password.setEnabled(false);
         username.setText(un);
         password.setText(pw);
 

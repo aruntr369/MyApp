@@ -132,6 +132,7 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -143,25 +144,25 @@
             android:id="@+id/reading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
             android:text="Reading"
-            android:textSize="20dp"
-            android:onClick="onCheckboxClicked"></CheckBox>
+            android:textSize="20dp"></CheckBox>
 
         <CheckBox
             android:id="@+id/writing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
             android:text="Writing"
-            android:textSize="20dp"
-            android:onClick="onCheckboxClicked"></CheckBox>
+            android:textSize="20dp"></CheckBox>
 
         <CheckBox
             android:id="@+id/running"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
             android:text="Running"
-            android:textSize="20dp"
-            android:onClick="onCheckboxClicked"></CheckBox>
+            android:textSize="20dp"></CheckBox>
     </LinearLayout>
 
 
@@ -187,6 +188,15 @@
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="@+id/gender"
         app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/pwd"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

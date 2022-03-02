@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".ProgressBarEx"
+            android:exported="false" />
+        <activity
+            android:name=".SeekBarEx"
+            android:exported="false" />
+        <activity
+            android:name=".GridViewFruits"
+            android:exported="false" />
+        <activity
+            android:name=".Fruits"
+            android:exported="false" />
+        <activity
             android:name=".TableLayoutEx"
             android:exported="false" />
         <activity

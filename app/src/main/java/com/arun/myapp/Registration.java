@@ -5,11 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class Registration extends AppCompatActivity {
@@ -18,11 +21,28 @@ public class Registration extends AppCompatActivity {
     CheckBox read,write,run;
     String remark;
     String result;
+    String distrticts[]={"Alappuzha","Ernakulam","Idukki","Kannur","Kasaragod","Kollam","Kottayam","Kozhikode","Malappuram","Palakkad","Pathanamthitta","Thiruvananthapuram","Thrissur","Wayanad"};
+    Spinner dist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registration);
+
+        dist =(Spinner)findViewById(R.id.spinner);
+        ArrayAdapter adapter=new ArrayAdapter(getApplicationContext(), android.R.layout.simple_dropdown_item_1line,distrticts);
+        dist.setAdapter(adapter);
+        dist.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(getApplicationContext(),distrticts[i],Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
 
         read = (CheckBox) findViewById(R.id.reading);
         write = (CheckBox) findViewById(R.id.writing);
@@ -88,7 +108,6 @@ public class Registration extends AppCompatActivity {
      // Toast.makeText(getApplicationContext(),str,Toast.LENGTH_LONG).show();
     }
 
-//public void Submit(View view) {
-
- //   }
+public void Submit(View view) {
+    }
 }
