@@ -7,6 +7,8 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
+
 public class SeekBarEx extends AppCompatActivity {
 
     @Override

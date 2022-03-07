@@ -22,8 +22,10 @@ public class Splash extends AppCompatActivity {
         iv.startAnimation(faddeIn);
 
         TextView tv =(TextView) findViewById(R.id.starttx);
-        Animation rotate =AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate);
+       /* Animation rotate =AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate);
         tv.startAnimation(rotate);
+        //animation of start
+        */
 
 //        Thread obj = new Thread(){
 //            @Override
@@ -44,10 +46,10 @@ public class Splash extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-              Intent i =new Intent(getApplicationContext(),ProgressBarEx.class);
+              Intent i =new Intent(getApplicationContext(),AutoCompleteEx.class);
               startActivity(i);
               finish();
             }
-        },5000);
+        },3000);
     }
 }

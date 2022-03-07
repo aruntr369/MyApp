@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".AutoCompleteEx"
+            android:exported="false" />
+        <activity
+            android:name=".SearchViewEx"
+            android:exported="false" />
+        <activity
+            android:name=".ImageClicked"
+            android:exported="false" />
+        <activity
+            android:name=".GridTask"
+            android:exported="false" />
+        <activity
             android:name=".ProgressBarEx"
             android:exported="false" />
         <activity

@@ -14,7 +14,7 @@ public class ProgressBarEx extends AppCompatActivity {
     ProgressBar pro;
     Button btn;
     TextView tvperr;
-    String tvpp;
+    String tvpp="a";
 
 
     @Override
@@ -46,8 +46,8 @@ public class ProgressBarEx extends AppCompatActivity {
                     e.printStackTrace();
                 }
                // tvper.setText(progress+"");
-               //String tvpp =Integer.toString(progress);
-               // tvperr.setText(tvpp+"");
+              // tvpp =String.valueOf(progress);
+                //tvperr.setText(tvpp);
 
 
                 setProgressvalue(progress+10);
