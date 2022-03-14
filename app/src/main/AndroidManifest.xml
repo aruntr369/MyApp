@@ -12,6 +12,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".MenuPopUP"
+            android:exported="false" />
+        <activity
+            android:name=".MenuContext"
+            android:exported="false" />
+        <activity
+            android:name=".MenuSub"
+            android:exported="false" />
+        <activity
+            android:name=".MenuOptionEx"
+            android:exported="false" />
+        <activity
+            android:name=".NumberPickerEx"
+            android:exported="false" />
+        <activity
+            android:name=".DatePickerEx"
+            android:exported="false" />
+        <activity
+            android:name=".TimePickerWithEText"
+            android:exported="false" />
+        <activity
+            android:name=".TimePickerEx"
+            android:exported="false" />
+        <activity
+            android:name=".SnackBarEx"
+            android:exported="false" />
+        <activity
+            android:name=".CustomToast"
+            android:exported="false" />
+        <activity
+            android:name=".ToggleSwitch"
+            android:exported="false" />
+        <activity
+            android:name=".AlertCustom"
+            android:exported="false" />
+        <activity
             android:name=".scrollViewEx"
             android:exported="false" />
         <activity

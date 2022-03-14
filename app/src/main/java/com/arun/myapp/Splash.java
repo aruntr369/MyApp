@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.PopupMenu;
 import android.widget.TextView;
 
 public class Splash extends AppCompatActivity {
@@ -46,7 +47,7 @@ public class Splash extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-              Intent i =new Intent(getApplicationContext(),scrollViewEx.class);
+              Intent i =new Intent(getApplicationContext(),MenuPopUP.class);
               startActivity(i);
               finish();
             }
