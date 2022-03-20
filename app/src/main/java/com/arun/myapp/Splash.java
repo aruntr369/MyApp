@@ -11,6 +11,11 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 
+import connectionss.BluethoothEx;
+import connectionss.PhoneCallEx;
+import connectionss.SMSactivity;
+import fragmentsEx.FragmentEX;
+
 public class Splash extends AppCompatActivity {
 
     @Override
@@ -47,7 +52,7 @@ public class Splash extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-              Intent i =new Intent(getApplicationContext(),MediaPlayerEx.class);
+              Intent i =new Intent(getApplicationContext(), AlertCustom.class);
               startActivity(i);
               finish();
             }

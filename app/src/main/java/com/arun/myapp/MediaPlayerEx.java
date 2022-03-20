@@ -63,6 +63,10 @@ public class MediaPlayerEx extends AppCompatActivity {
                 hdlr.postDelayed(UpdateSongTime,100);
                 pausebtn.setEnabled(true);
                 playbtn.setEnabled(false);
+
+                if(sTime==eTime) {
+                    hdlr.removeCallbacksAndMessages(null);
+                }
             }
         });
 

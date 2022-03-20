@@ -3,6 +3,12 @@
     package="com.arun.myapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +17,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
+        <activity
+            android:name="fragmentsEx.FragmentEX"
+            android:theme="@style/mytheme"
+            android:exported="false" />
+        <activity
+            android:name=".CameraEx"
+            android:exported="false" />
+        <activity
+            android:name="connectionss.BluethoothEx"
+            android:exported="false" />
+        <activity
+            android:name="connectionss.SMSactivity"
+            android:exported="false" />
+        <activity
+            android:name="connectionss.PhoneCallEx"
+            android:exported="false" />
         <activity
             android:name=".VideoPlayerEx"
             android:exported="false" />
