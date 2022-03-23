@@ -11,10 +11,13 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 
+import com.arun.myapp.recyclerviewex.MainActivityRecycler;
+
 import connectionss.BluethoothEx;
 import connectionss.PhoneCallEx;
 import connectionss.SMSactivity;
 import fragmentsEx.FragmentEX;
+import fragmentsEx.viewPager2.ActivityViewPager2;
 
 public class Splash extends AppCompatActivity {
 
@@ -52,7 +55,7 @@ public class Splash extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-              Intent i =new Intent(getApplicationContext(), AlertCustom.class);
+              Intent i =new Intent(getApplicationContext(), MainActivityRecycler.class);
               startActivity(i);
               finish();
             }

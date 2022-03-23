@@ -7,6 +7,15 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/drawable/gradian_color.xml" value="0.1899122807017544" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1899122807017544" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/drawable/roundedbutton.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-land/all_screen_size.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-large/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-sw320dp-land/all_screen_size.xml" value="0.15" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-sw320dp/all_screen_size.xml" value="0.1763157894736842" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-sw480dp-land/all_screen_size.xml" value="0.11533888228299644" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-sw480dp/all_screen_size.xml" value="0.14398812469074715" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-sw720dp/all_screen_size.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-w320dp/all_screen_size.xml" value="0.1763157894736842" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout-xlarge/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_alert_custom.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_alert_dialog_ex.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_auto_complete_ex.xml" value="0.1763157894736842" />
@@ -21,8 +30,9 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_grid_view_fruits.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_image_clicked.xml" value="0.1763157894736842" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main_recycler.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_maps.xml" value="0.17402597402597403" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_media_player_ex.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_menu_context.xml" value="0.1763157894736842" />
@@ -35,6 +45,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_rating_bar_ex.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_scroll_view_ex.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_search_view_ex.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_second_recycle.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_seek_bar.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_sms_ex.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_smsactivity.xml" value="0.1" />
@@ -44,19 +55,23 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_time_picker_with_etext.xml" value="0.16233766233766234" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_toggle_switch.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_video_player_ex.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_view_pager2.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_web_view_ex.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/alert_dialog_with_ratingbar.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/alert_view_with_img.xml" value="0.1763157894736842" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/all_screen_size.xml" value="0.18" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/btnback.xml" value="0.209375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/custom_layout.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/custom_toast.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/fragment_about.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/fragment_blank.xml" value="0.1763157894736842" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/fragment_card.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/fragment_contact.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/fragment_home.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/grid_countries.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/list_item_grid.xml" value="0.18" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/loginnew.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/recycle_adapter_cus.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/registration.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/splash.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/menu/option.xml" value="0.1763157894736842" />

@@ -18,9 +18,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
-            android:name="fragmentsEx.FragmentEX"
-            android:theme="@style/mytheme"
+            android:name=".AllScreenSize"
             android:exported="false" />
+        <activity
+            android:name=".recyclerviewex.SecondActivityRecycle"
+            android:exported="false" />
+        <activity
+            android:name=".recyclerviewex.MainActivityRecycler"
+            android:exported="false" />
+        <activity
+            android:name="fragmentsEx.viewPager2.ActivityViewPager2"
+            android:exported="false" />
+        <activity
+            android:name="fragmentsEx.FragmentEX"
+            android:exported="false"
+            android:theme="@style/mytheme" />
         <activity
             android:name=".CameraEx"
             android:exported="false" />
