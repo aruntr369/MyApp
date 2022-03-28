@@ -18,6 +18,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".cardviewex.SecondActivityCard"
+            android:exported="false" />
+        <activity
+            android:name=".cardviewex.CardRecycle"
+            android:exported="false" />
+        <activity
+            android:name=".storage.SqliteViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".storage.SqliteWithoutOpenHelper"
+            android:exported="false" />
+        <activity
+            android:name=".notificationss.BatteryBoardCast"
+            android:exported="false" />
+
+        <service android:name=".notificationss.ServiceRingtune" />
+
+        <activity
+            android:name=".notificationss.RingtuneService"
+            android:exported="false" />
+        <activity
             android:name=".AllScreenSize"
             android:exported="false" />
         <activity

@@ -6,6 +6,7 @@ plugins {
 android {
     compileSdk 32
 
+
     defaultConfig {
         applicationId "com.arun.myapp"
         minSdk 21
@@ -27,6 +28,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     buildFeatures {
+        dataBinding true
         viewBinding true
     }
 }
