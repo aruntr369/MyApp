@@ -11,11 +11,15 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 
+import com.arun.myapp.asyncccc.AsyncEx;
 import com.arun.myapp.cardviewex.CardRecycle;
 import com.arun.myapp.notificationss.BatteryBoardCast;
 import com.arun.myapp.notificationss.RingtuneService;
 import com.arun.myapp.recyclerviewex.MainActivityRecycler;
+import com.arun.myapp.storage.ExStorageActivity;
+import com.arun.myapp.storage.InternalStorageActivity;
 import com.arun.myapp.storage.SqliteWithoutOpenHelper;
+import com.arun.myapp.storage.sqlroom.MainActivityRoom;
 
 import connectionss.BluethoothEx;
 import connectionss.PhoneCallEx;
@@ -59,7 +63,7 @@ public class Splash extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-              Intent i =new Intent(getApplicationContext(), AlertCustom.class);
+              Intent i =new Intent(getApplicationContext(), MainActivityRoom.class);
               startActivity(i);
               finish();
             }
