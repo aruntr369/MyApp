@@ -21,6 +21,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".webserviceVolley.JsonArrayParsingVolley"
+            android:exported="false" />
+        <activity
+            android:name=".json.JsonFromUrl"
+            android:exported="false" />
+        <activity
             android:name=".storage.sqlroom.NewCourseActivity"
             android:exported="false" />
         <activity

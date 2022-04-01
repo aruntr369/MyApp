@@ -36,6 +36,8 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_image_clicked.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_internal_storage.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_json_array_parsing_volley.xml" value="0.15904232578024796" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_json_from_url.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main_recycler.xml" value="0.1763157894736842" />
@@ -76,6 +78,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/btnback.xml" value="0.209375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/card_recycle_ex.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/course_rv_item.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/course_rv_itemnew.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/custom_layout.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/custom_toast.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/fragment_about.xml" value="0.1763157894736842" />
@@ -85,6 +88,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/fragment_home.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/grid_countries.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/list_item_grid.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/list_json_url.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/loginnew.xml" value="0.18" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/recycle_adapter_cus.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/registration.xml" value="0.1763157894736842" />

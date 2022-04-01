@@ -9,13 +9,6 @@ public class CourseModal {
     @PrimaryKey(autoGenerate = true)
     private int id;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     private String courseName;
     private String courseDescription;
@@ -27,6 +20,13 @@ public class CourseModal {
         this.courseDuration = courseDuration;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getCourseName() {
         return courseName;
