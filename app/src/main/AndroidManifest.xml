@@ -21,6 +21,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".firebase.RegisterWithFirebase"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.LoginWithFirebase"
+            android:exported="false" />
+        <activity
+            android:name=".webserviceRetrofit.RetrofitMain"
+            android:exported="false" />
+        <activity
+            android:name=".storage.sharedPreferences.SecondPageShared"
+            android:exported="false" />
+        <activity
+            android:name=".storage.sharedPreferences.LoginUsingShared"
+            android:exported="false" />
+        <activity
             android:name=".webserviceVolley.JsonArrayParsingVolley"
             android:exported="false" />
         <activity

@@ -39,6 +39,8 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_json_array_parsing_volley.xml" value="0.15904232578024796" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_json_from_url.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login_using_shared.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login_with_firebase.xml" value="0.21" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main_recycler.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main_room.xml" value="0.1" />
@@ -53,10 +55,13 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_phone_call_ex.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_progress_bar_ex.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_rating_bar_ex.xml" value="0.1763157894736842" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_register_with_firebase.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_retrofit_main.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_ringtune_service.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_scroll_view_ex.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_search_view_ex.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_second_card.xml" value="0.1718683197947841" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_second_page_shared.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_second_recycle.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_seek_bar.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_sms_ex.xml" value="0.1763157894736842" />
@@ -92,6 +97,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/loginnew.xml" value="0.18" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/recycle_adapter_cus.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/registration.xml" value="0.1763157894736842" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/row_item_retrofit.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/layout/splash.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/menu/option.xml" value="0.1763157894736842" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApp/app/src/main/res/menu/popup.xml" value="0.1763157894736842" />

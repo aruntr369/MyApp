@@ -38,16 +38,16 @@ public class PhoneCallEx extends AppCompatActivity {
         });
     }
 
-//    @Override
-//    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-//        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-//        if (requestCode == 122) {
-//            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-//
-//                callPhoneNumber();
-//            }
-//        }
-//    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == 122) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                callPhoneNumber();
+            }
+        }
+    }
 
     public void callPhoneNumber() {
         try {
