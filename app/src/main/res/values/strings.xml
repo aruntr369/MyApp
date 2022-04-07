@@ -27,8 +27,8 @@ Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 
 
     <string name="facebook_app_id">522051196180395</string>
-    <string name="fb_login_protocol_scheme">fb1234</string>
-    <string name="facebook_client_token">56789</string>
+    <string name="fb_login_protocol_scheme">fb522051196180395</string>
+    <string name="facebook_client_token">3790f717320cc53b0fa7936bda8bf72d</string>
 
 
 </resources>

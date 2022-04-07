@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.arun.myapp.asyncccc.AsyncEx;
 import com.arun.myapp.cardviewex.CardRecycle;
+import com.arun.myapp.facebook.FacebookMain;
 import com.arun.myapp.firebase.LoginWithFirebase;
 import com.arun.myapp.json.JsonFromUrl;
 import com.arun.myapp.notificationss.BatteryBoardCast;
@@ -68,7 +69,7 @@ public class Splash extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-              Intent i =new Intent(getApplicationContext(), LoginWithFirebase.class);
+              Intent i =new Intent(getApplicationContext(), FacebookMain.class);
               startActivity(i);
               finish();
             }
