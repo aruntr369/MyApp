@@ -59,8 +59,7 @@ public class SqliteViewActivity extends AppCompatActivity {
                 String get = ID + " " + NAME + " " + DESIGNATION +
                         " " + CONTACT + " " + AREA + " " + CITY;
                 listItem.add(get);
-                adapter = new ArrayAdapter<String>(this,
-                        android.R.layout.simple_list_item_1, listItem);
+                adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, listItem);
                 listView.setAdapter(adapter);
 
             } while (result.moveToNext());

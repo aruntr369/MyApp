@@ -99,6 +99,7 @@ public class RegisterWithFirebase extends AppCompatActivity {
     }
 
     private void updateUI(FirebaseUser user) {
+           // Toast.makeText(RegisterWithFirebase.this, user+" <- this is the user", Toast.LENGTH_LONG).show();
 
     }
 }
