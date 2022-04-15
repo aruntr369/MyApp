@@ -84,6 +84,14 @@ public class FacebookMain extends AppCompatActivity {
         loginButton.setReadPermissions(Arrays.asList(EMAIL,"public_profile"));
         // If you are using in a fragment, call loginButton.setFragment(this);
 
+
+        /**for login custom button
+         * LoginManager.getInstance().logInWithReadPermissions(this, Arrays.asList("public_profile"));
+         *
+         *for custom logout button
+         *LoginManager.getInstance().logOut();
+         */
+
         // Callback registration
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
@@ -140,12 +148,14 @@ public class FacebookMain extends AppCompatActivity {
                             String email = object.getString("email");
                             String id = object.getString("id");
                             String image_url = "https://graph.facebook.com/" + id + "/picture?type=normal";
+                            String url =object.getJSONObject("picture").getJSONObject("data").getString("url");
 
                             txtUsername.setText("First Name: " + first_name + "\nLast Name: " + last_name);
                             txtEmail.setText(email);
                             //Picasso.get().load(image_url).into(imageView);
                             //Glide.with(FacebookMain.this).load(image_url).into(imageView);
                             Picasso.get().load(Profile.getCurrentProfile().getProfilePictureUri(200, 200)).into(imageView);
+                            //Picasso.get().load(url).into(imageView);
 
                         } catch (JSONException e) {
                             e.printStackTrace();

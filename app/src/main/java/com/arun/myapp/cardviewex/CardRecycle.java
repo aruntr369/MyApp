@@ -1,6 +1,7 @@
 package com.arun.myapp.cardviewex;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -19,10 +20,27 @@ public class CardRecycle extends AppCompatActivity {
             "car9","car10","car11","car12","car13","car1","car2","car3","car4","car5","car6","car7","car8" ,
             "car9","car10","car11","car12","car13"};
 
+    private SearchView searchView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_recycle);
+
+        searchView = findViewById(R.id.searchViewCard);
+        searchView.clearFocus();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                return true;
+            }
+        });
+
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyCard);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
